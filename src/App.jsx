@@ -1,35 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <body>
+        <header>
+          <h1>Portfolio 2024 - Taran Johannessen</h1>
+          <hr />
+        </header>
+        <main>
+          <div class="card">
+            <a href="https://vintagecharmbids.netlify.app/">
+              <img src="" alt="Vintage Charm Bids website" />
+            </a>
+            <div class="description">
+              <h2>Vintage Charm Bids</h2>
+              <p>Vintage Charm Bids</p>
+              <div class="links">
+                <a href="https://github.com/TaranJ/semester-project-2">GitHub repository</a>
+                <a href="https://vintagecharmbids.netlify.app/">Go to site</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://feanor.netlify.app/">
+              <img src="" alt="Fëanor website" />
+            </a>
+            <div class="description">
+              <h2>Fëanor</h2>
+              <p>Fëanor</p>
+              <div class="links">
+                <a href="https://github.com/TaranJ/js-frameworks" class="github">
+                  GitHub repository
+                </a>
+                <a href="https://feanor.netlify.app/">Go to site</a>
+              </div>
+            </div>
+          </div>
+          <div class="card card-3">
+            <a href="https://warm-pie-90b89c.netlify.app/">
+              <img src="" alt="Holidaze website" />
+            </a>
+            <div class="description">
+              <h2>Holidaze</h2>
+              <p>Holidaze</p>
+              <div class="links">
+                <a href="https://github.com/TaranJ/project-exam-2" class="github">
+                  GitHub repository
+                </a>
+                <a href="https://warm-pie-90b89c.netlify.app/">Go to site</a>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer></footer>
+      </body>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
