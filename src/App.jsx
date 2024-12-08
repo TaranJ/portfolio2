@@ -3,58 +3,72 @@ import "./App.css";
 function App() {
   return (
     <>
-      <body>
-        <header>
-          <h1>Portfolio 2024 - Taran Johannessen</h1>
-          <hr />
-        </header>
-        <main>
-          <div class="card">
-            <a href="https://vintagecharmbids.netlify.app/">
-              <img src="" alt="Vintage Charm Bids website" />
-            </a>
-            <div class="description">
-              <h2>Vintage Charm Bids</h2>
-              <p>Vintage Charm Bids</p>
-              <div class="links">
-                <a href="https://github.com/TaranJ/semester-project-2">GitHub repository</a>
-                <a href="https://vintagecharmbids.netlify.app/">Go to site</a>
+      <header className="py-4 text-white">
+        <h1 className="display-4 text-uppercase fs-2">Portfolio 2024 - Taran Johannessen</h1>
+        <hr className="mx-auto" />
+      </header>
+      <main className="container py-5">
+        <div className="row g-4">
+          <div className="col-md-4">
+            <div className="card">
+              <a href="https://vintagecharmbids.netlify.app/">
+                <img src="src/assets/vintagecharmbids.jpg" className="card-img-top" alt="Vintage Charm Bids website" />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">Vintage Charm Bids</h5>
+                <p className="card-text">Vintage Charm Bids</p>
+                <div className="d-flex justify-content-between">
+                  <a href="https://github.com/TaranJ/semester-project-2" className="btn btn-outline-primary btn-sm">
+                    GitHub
+                  </a>
+                  <a href="https://vintagecharmbids.netlify.app/" className="btn btn-primary btn-sm">
+                    Visit Site
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="card">
-            <a href="https://feanor.netlify.app/">
-              <img src="" alt="Fëanor website" />
-            </a>
-            <div class="description">
-              <h2>Fëanor</h2>
-              <p>Fëanor</p>
-              <div class="links">
-                <a href="https://github.com/TaranJ/js-frameworks" class="github">
-                  GitHub repository
-                </a>
-                <a href="https://feanor.netlify.app/">Go to site</a>
+          <div className="col-md-4">
+            <div className="card">
+              <a href="https://feanor.netlify.app/">
+                <img src="src/assets/feanor.jpg" className="card-img-top" alt="Fëanor website" />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">Fëanor</h5>
+                <p className="card-text">Fëanor</p>
+                <div className="d-flex justify-content-between">
+                  <a href="https://github.com/TaranJ/js-frameworks" className="btn btn-outline-primary btn-sm">
+                    GitHub
+                  </a>
+                  <a href="https://feanor.netlify.app/" className="btn btn-primary btn-sm">
+                    Visit Site
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="card card-3">
-            <a href="https://warm-pie-90b89c.netlify.app/">
-              <img src="" alt="Holidaze website" />
-            </a>
-            <div class="description">
-              <h2>Holidaze</h2>
-              <p>Holidaze</p>
-              <div class="links">
-                <a href="https://github.com/TaranJ/project-exam-2" class="github">
-                  GitHub repository
-                </a>
-                <a href="https://warm-pie-90b89c.netlify.app/">Go to site</a>
+          <div className="col-md-4">
+            <div className="card">
+              <a href="https://warm-pie-90b89c.netlify.app/">
+                <img src="src/assets/holidaze.jpg" className="card-img-top" alt="Holidaze website" />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">Holidaze</h5>
+                <p className="card-text">Holidaze</p>
+                <div className="d-flex justify-content-between">
+                  <a href="https://github.com/TaranJ/project-exam-2" className="btn btn-outline-primary btn-sm">
+                    GitHub
+                  </a>
+                  <a href="https://warm-pie-90b89c.netlify.app/" className="btn btn-primary btn-sm">
+                    Visit Site
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </main>
-        <footer></footer>
-      </body>
+        </div>
+      </main>
+      <footer></footer>
     </>
   );
 }
