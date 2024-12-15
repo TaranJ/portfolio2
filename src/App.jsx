@@ -1,4 +1,7 @@
 import "./App.css";
+import vintageCharmBids from "/src/assets/vintagecharmbids.jpg";
+import feanor from "/src/assets/feanor.jpg";
+import holidaze from "/src/assets/holidaze.jpg";
 
 function App() {
   return (
@@ -12,7 +15,7 @@ function App() {
           <div className="col-md-4">
             <div className="card">
               <a href="https://vintagecharmbids.netlify.app/">
-                <img src="src/assets/vintagecharmbids.jpg" className="card-img-top" alt="Vintage Charm Bids website" />
+                <img src={vintageCharmBids} className="card-img-top" alt="Vintage Charm Bids website" />
               </a>
               <div className="card-body">
                 <h5 className="card-title">Vintage Charm Bids</h5>
@@ -31,7 +34,7 @@ function App() {
           <div className="col-md-4">
             <div className="card">
               <a href="https://feanor.netlify.app/">
-                <img src="src/assets/feanor.jpg" className="card-img-top" alt="Fëanor website" />
+                <img src={feanor} className="card-img-top" alt="Fëanor website" />
               </a>
               <div className="card-body">
                 <h5 className="card-title">Fëanor</h5>
@@ -50,7 +53,7 @@ function App() {
           <div className="col-md-4">
             <div className="card">
               <a href="https://warm-pie-90b89c.netlify.app/">
-                <img src="src/assets/holidaze.jpg" className="card-img-top" alt="Holidaze website" />
+                <img src={holidaze} className="card-img-top" alt="Holidaze website" />
               </a>
               <div className="card-body">
                 <h5 className="card-title">Holidaze</h5>
