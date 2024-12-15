@@ -6,9 +6,9 @@ img {
 }
 
 #root {
-  max-width: 1280px;
+  max-width: 1380px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 0;
   font-family: "Barlow", sans-serif;
 }
 
@@ -24,7 +24,47 @@ a {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
+a {
+  font-style: italic;
+  color: #000;
+  text-decoration: none;
+  font-weight: 200;
+}
+
 h1 {
   letter-spacing: 3px;
   font-weight: 100;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 4px 4px 10px;
+  border: none;
+  border-radius: 0%;
+}
+
+.card-body {
+  padding: 30px;
+  min-height: 280px;
+  display: grid;
+}
+
+.card-text {
+  font-size: 0.9em;
+  padding-top: 10px;
+}
+
+/* -------------- ANIMATIONS -------------- */
+a:hover {
+  color: #2c004f;
+  font-weight: 400;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 15px #6b597a;
 }
